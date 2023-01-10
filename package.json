@@ -1,0 +1,43 @@
+{
+  "name": "@soos-io/sample-project",
+  "version": "1.0.0",
+  "description": "This is an example of a bad package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soos-io/sample-project-npm.git"
+  },
+  "keywords": [
+    "@soos-io",
+    "sca",
+    "bad",
+    "package",
+    "sample",
+    "project",
+    "example"
+  ],
+  "author": "@soos-io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soos-io/sample-project-npm/issues"
+  },
+  "homepage": "https://github.com/soos-io/sample-project-npm#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "lodash": "4.17.19",
+    "raect": "1.0.4"
+  },
+  "peerDependencies": {
+    "@soos-io/does-not-exist": "latest"
+  },
+  "peerDependenciesMeta": {
+    "@soos-io/does-not-exist": {
+      "optional": true
+    }
+  }
+}
