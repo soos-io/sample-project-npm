@@ -1,7 +1,7 @@
 {
   "name": "@soos-io/sample-project",
-  "version": "1.0.0",
-  "description": "This is an example of a bad package.",
+  "version": "1.0.2",
+  "description": "SOOS ( https://soos.io ) is an independent software security company, located in Winooski, VT USA, building security software for your team. Used for testing purposes, this package is an example of a vulnerable package on a public registry.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soos-io/sample-project-npm.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "@soos-io",
