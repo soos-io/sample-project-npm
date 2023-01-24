@@ -11,7 +11,8 @@
     "url": "git+https://github.com/soos-io/sample-project-npm.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "keywords": [
     "@soos-io",
@@ -35,9 +36,6 @@
     "url": "https://github.com/soos-io/sample-project-npm/issues"
   },
   "homepage": "https://github.com/soos-io/sample-project-npm#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "lodash": "4.17.19",
     "raect": "1.0.4"
