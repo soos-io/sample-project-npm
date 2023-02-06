@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/soos-io/sample-project-npm#readme",
   "dependencies": {
-    "lodash": "4.17.19",
+    "lodash": "4.17.21",
     "raect": "1.0.4"
   },
   "peerDependencies": {
