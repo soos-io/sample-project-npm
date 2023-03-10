@@ -32,6 +32,9 @@
     "lodash": "4.17.19",
     "raect": "1.0.4"
   },
+  "devDependencies": {
+     "mocha": "7.2.0"
+  },
   "peerDependencies": {
     "@soos-io/does-not-exist": "latest"
   },
