@@ -1,6 +1,6 @@
 {
   "name": "@soos-io/sample-project",
-  "version": "1.0.0",
+  "version": "1.0.3-more",
   "description": "This is an example of a bad package.",
   "main": "index.js",
   "scripts": {
